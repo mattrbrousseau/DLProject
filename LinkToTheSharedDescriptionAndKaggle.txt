@@ -1,0 +1,9 @@
+Hi all,
+
+
+
+Please fill in this (https://docs.google.com/spreadsheets/d/1QSL9YEwDpYyF_7fcQt1jAjotC2PZma67ta-yYCghu6o/edit#gid=0) spreadsheet with the names of the team members, draft project title, project description (a brief (4 lines max) description) and dataset description (the link to the dataset/dataset size). In addition to this, you may add a link to a google document (shared with me and TA) containing additional details like project timeline, architecture ideas and other details you deem necessary. 
+
+  
+
+Please fill this in by Thursday Noon. If you intend to do the Kaggle (http://dcase.community/challenge2018/task-general-purpose-audio-tagging) project, then just indicate that on the sheet as well, and you can still link to a google document.
