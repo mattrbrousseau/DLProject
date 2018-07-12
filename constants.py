@@ -1,5 +1,7 @@
 
 
+basepath = 'C:/Users/miria/OneDrive - Dalhousie University/PhD.Dal/Courses/0CSCI6908-DeepLearning/Project/'
+
 labels = ["Tearing","Bus","Shatter","Gunshot, gunfire","Fireworks","Writing",\
 		"Computer keyboard","Scissors","Microwave oven","Keys jangling",\
 		"Drawer open or close","Squeak","Knock","Telephone","Saxophone",\
