@@ -78,7 +78,8 @@ The baseline system trains to achieve an MAP@3 of ~0.7 on the public Kaggle lead
         "Cowbell","Bark","Meow"]
 
 * Create audio descriptions [^1] => **Use librosa to extracte features and use https://www.kaggle.com/codename007/a-very-extensive-freesound-exploratory-analysis what is each feature about**
-[^1]
+[^1]: I think the easy way is to convert the signal into numbers instead of working with the image of the soundtrack or another approach. Once we have this working, we can improve the approch to something more fancy =)
+
     * Possible useful papers (They still need to be checked and we need to find more I think =/):
         - [Genre Classification using Independent and Discriminant Features] (https://jcis.sbrt.org.br/jcis/article/view/515/379)
         - [Audio Descriptors and Descriptor Schemes in the Context of MPEG-7] (http://www.imm.dtu.dk/~lfen/Audio%20Descriptors%20and%20Descriptor%20Schemes.pdf) This paper came from the same University that the author of the Kaggle competition are.
