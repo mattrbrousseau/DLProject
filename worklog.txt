@@ -1,1 +1,34 @@
 
+
+
+# Miria
+
+2018-07-25 - Writing the literature review and stablishing a good approach to implement as a start
+2018-07-24 - Finding papers that deal with similar/same problem.
+            - Plotting 2 samples of sounds (knock and oboe) in all the 5 description I have used so far to include in the report as a way to show how these two different sounds variates according to each description (tonneltz, spectral_centroid, spectral_bandwidth, mfcc and spectrograms)
+2018-07-23 - Describe the data in function of the *spectrogram*. Dimensions are frequency in Hz, time and intensity in Db. Each sample is described in this huge space.
+            - Try to classify using Random Forest but the samples were to big and the application crashes. Due to that, I did not try to classify with MLP.
+            - Think how to apply convolution on the spectrograms focus on the pooling after the convolution to decrease dimensionality even more. Thought to treat the spectrogram as an image. The filters would be the ones to emphasize edges and the pooling would be the maximum function pooling. Then I decided to check the literature first to see what people already know that does not work =).
+2018-07-20 - Classify the *tonneltz* using Random Forest and Multiple Layer Perceptron 
+            - Study the dimensions of the *tonnelts* output and the number of samples with each dimension to evaluate how much is going to be lost if we stablish a maximun legth that is smaller than the biggest length found in the data. 6 dimensions with 20 to 2600 length each. The maximum length used was 1000 of length and the 6 dimensions were reshape into 1 dimension vector of total size of 6000 for sample.
+            - Study the dimensions of the *spectral centroid* output and the number of samples with each dimension to evaluate how much is going to be lost if we stablish a maximun legth that is smaller than the biggest length found in the data. 1 dimension with lengths variating between 25 to 2600 of length. We cut it or padded it to a length of 1000 values.
+            - Classify the *spectral centroid* data using Random Forest and Multiple Layer Perceptron
+            - Study the dimensions of the *spectral bandwidth* output and the number of samples with each dimension to evaluate how much is going to be lost if we stablish a maximun legth that is smaller than the biggest length found in the data. 1 dimension with lengths variating between 25 to 2600 of length. We cut it or padded it to a length of 1000 values.
+            - Classify the *spectral bandwidth* output using Random Forest and Multiple Layer Perceptron
+            - Study the dimensions of the *mfcc* output and the number of samples with each dimension to evaluate how much is going to be lost if we stablish a maximun legth that is smaller than the biggest length found in the data. 25 dimension with lengths variating between 25 to 2600 of length. We cut it or padded it to a length of 1000 values and reshape the array into 1 dimension with 25000 values for sample
+            - Try to classify the *mfcc* using Random Forest and Multiple Layer Perceptron. We got results for the RF but the MLP was taking too long to execute each epoch that I had to killed the application in order to test other strategies.
+            - Start writing the report.
+2018-07-18 - Describe the data in function of the *spectral centroid*
+            - Describe the data in function of the *spectral bandwidth*
+            - Describe the data in function of the *mfcc*      
+2018-07-17 - Describe the data in function of *tonneltz*
+            - Search for sounds properties trying to identify which property would be more helpful to differentiate different sources of sound.
+            - Plotting the raw data and playing it in the jupyter notebook
+            - Read and analyse parts of the baseline solution
+2018-07-13 - Limit the maximum length of the raw data to use in a first classification attempt
+2018-07-12 - Load data using pandas. Filter out the data that were not verified and the files names which the files are not in the train set folder   
+2018-06-27 - Check what we have for data, what are the characteristics and what the data means
+2018-06-27 - Read and analyse the problem descriptions. Check the rules' competition and input a summary with requirements and limitations
+2018-06-27 - Download database
+
+
