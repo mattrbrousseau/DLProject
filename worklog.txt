@@ -2,7 +2,7 @@
 
 
 # Miria
-
+2018-07-26 - Finishing literature review
 2018-07-25 - Writing the literature review and stablishing a good approach to implement as a start
 2018-07-24 - Finding papers that deal with similar/same problem.
             - Plotting 2 samples of sounds (knock and oboe) in all the 5 description I have used so far to include in the report as a way to show how these two different sounds variates according to each description (tonneltz, spectral_centroid, spectral_bandwidth, mfcc and spectrograms)
