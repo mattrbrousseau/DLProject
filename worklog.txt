@@ -2,6 +2,15 @@
 
 
 # Miria
+2018-08-13-14 - Working on the report
+2018-08-12 - Adding plots and information to the presentation and finalizing it
+2018-08-12 - Executted the codes on the server and formatted the results
+2018-08-12 - Working on the report
+2018-08-11 - creating bibliography on Latex and fixing the references to the bibliography and images in the report
+2018-08-11 - Working on the report
+2018-08-10 - Working on the report
+2018-08-05 - Solving MOA server issues and installing packages to execute the codes
+2018-08-04 - Start implementing a classifier using tensorflow and Keras
 2018-07-27 - Plot mel-spectrograms, analyse its dimensions and filled up the report with the plots and dimensions' info. This dataset (size 128) is much smaller than the spectrograms (size 1025) so I will try the RF and MLP on them.
 2018-07-26 - Finishing literature review
             -Calculate the mel-spectrogram that was used by Lee et all in the literature review
@@ -28,7 +37,8 @@
             - Plotting the raw data and playing it in the jupyter notebook
             - Read and analyse parts of the baseline solution
 2018-07-13 - Limit the maximum length of the raw data to use in a first classification attempt
-2018-07-12 - Load data using pandas. Filter out the data that were not verified and the files names which the files are not in the train set folder   
+2018-07-12 - Load data using pandas. Filter out the data that were not verified and the files names which the files are not in the train set folder 
+2018-06-29 - Asked to the admin of MOA server to install Python 3 n the server 
 2018-06-27 - Check what we have for data, what are the characteristics and what the data means
 2018-06-27 - Read and analyse the problem descriptions. Check the rules' competition and input a summary with requirements and limitations
 2018-06-27 - Download database
