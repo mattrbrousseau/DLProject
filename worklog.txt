@@ -45,7 +45,8 @@
 
 
 ###### KENNY ######
-
+2018-08-14 - Lots of writing part 2 :)
+2018-08-13 - Lots of writing :)
 2018-08-12 - Attempt to implement GoogLeNet (without success - would need more time for this :))
 2018-08-11 - Update our report, added "methods" section including detailing the signal processing, explaining comparisons
              and mentions about noteable models that I had tried, and added future work
