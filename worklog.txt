@@ -34,3 +34,20 @@
 2018-06-27 - Download database
 
 
+###### KENNY ######
+
+2018-08-12 - Attempt to implement GoogLeNet (without success - would need more time for this :))
+2018-08-11 - Update our report, added "methods" section including detailing the signal processing, explaining comparisons
+             and mentions about noteable models that I had tried, and added future work
+2018-08-10 - Implement an MFCC extraction notebook to have more flexible extractions than librosa
+2018-08-03 - Created new notebook with some more data representations like CQT, STFT, trying new
+             classifiers
+2018-08-02 - Create latex template, move current writing to the latex file
+2018-07-29 - Commit more models to git
+2018-07-25 - Create functions for getting melspectrograms, and putting them in proper format
+           - Start trying to create models that use melspectrogram
+2018-07-22 - Start implementing models with Keras, commit models to git
+2018-07-20 - View papers to get ideas for models
+2018-07-19 - Commit notebook to allow others access to code
+2018-07-10 - Visualize some of the data, pre processed data to get MFCCs, start working on models
+2018-06-30 - Download database, set up jupyter notebook
