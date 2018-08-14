@@ -62,3 +62,21 @@
 2018-07-19 - Commit notebook to allow others access to code
 2018-07-10 - Visualize some of the data, pre processed data to get MFCCs, start working on models
 2018-06-30 - Download database, set up jupyter notebook
+
+#Matthew 
+July 07 - Downloaded Kaggle data and loaded it into notebook
+July 20 - Worked on loading .wav files into notebook and converting to MFCC
+July 22 - Created basic CNN model, tried implementing tanh-estimator which did not work
+July 23 - Started working with LSTM and applying it to the same model as CNN
+July 24 - Made LSTM Bidirectional, got good results
+July 25 - Tweaked model, added other layers, tested various hyperparameters
+July 27 - Added more layers to model, started getting better accuracy 
+August 6 - Worked on model more, tried different models and hyperparameters
+August 7 - Tweaked and tested models more, tried using mel-spectrogram
+August 8 - Tried implementing tanh-estimator again and run main model using it
+August 9 - Tried to run large model with low learning rate to fix overshooting problem, writing paper
+August 10 - Worked on models and writing paper, tried to help with MFCC implementation
+August 11 - Worked on slides for presentation, writing and editing paper
+August 12 - Tried to calculate accuracy if correct prediction was in the top 3, created a couple more models, wrote more of the paper, did more work on slides
+August 13 - Presentation preparation, presentation, worked on slides, worked on report, tried to implement some suggestions from meeting
+August 14 - Tried to implement some suggestions from meeting, wrote, edited and finalized the paper.
